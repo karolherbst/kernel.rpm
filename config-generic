@@ -4527,6 +4527,7 @@ CONFIG_MFD_VIPERBOARD=m
 # CONFIG_TS4800_IRQ is not set
 # CONFIG_TWL4030_CORE is not set
 # CONFIG_TWL6040_CORE is not set
+# CONFIG_SURFACE3_POWER is not set
 
 #
 # File systems

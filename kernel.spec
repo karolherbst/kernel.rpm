@@ -646,6 +646,9 @@ Patch909: 0004-Input-soc_button_array-allow-to-specify-active_low.patch
 Patch910: 0005-Input-soc_button_array-export-part-of-the-internals.patch
 Patch911: 0006-Input-surface3_button_array-Introduce-button-support.patch
 
+Patch912: 0001-power-MSHW0011-rev-eng-implementation.patch
+Patch913: 0002-power-surface3_power-Improve-battery-capacity-report.patch
+
 # END OF PATCH DEFINITIONS
 
 %endif
