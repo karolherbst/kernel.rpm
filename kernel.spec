@@ -655,6 +655,10 @@ Patch915: 0001-WIP-acpi-button-remove-pointer-to-old-lid_sysfs-on-u.patch
 Patch916: 0001-WIP-i2c-hid-enabled-S0-S3.patch
 Patch917: 0002-WIP-add-custom-surface3-platform-device-for-controll.patch
 
+Patch918: ASoC_Intel_Add_support_for_surface3_tablet.patch
+Patch919: 07d5c17b80f67d1b2cc2c8243590e2abed4bd7ae..5d554ea4f287665b839975ecb11bd29d49a5c9b5.patch
+Patch920: 5d554ea4f287665b839975ecb11bd29d49a5c9b5..24dad509ed5528bbbe31ff17f9fb39c0473ec8f4.patch
+
 # END OF PATCH DEFINITIONS
 
 %endif
