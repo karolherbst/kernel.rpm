@@ -42,7 +42,7 @@ Summary: The Linux kernel
 # For non-released -rc kernels, this will be appended after the rcX and
 # gitX tags, so a 3 here would become part of release "0.rcX.gitX.3"
 #
-%global baserelease 1
+%global baserelease 2.surface3
 %global fedora_build %{baserelease}
 
 # base_sublevel is the kernel version we're starting with and patching
@@ -629,6 +629,8 @@ Patch833: drm-nouveau-disp-sor-gf119-select-correct-sor-when.patch
 
 #rhbz 1346753
 Patch834: qla2xxx-Fix-NULL-pointer-deref-in-QLA-interrupt.patch
+
+# Surface 3 patches
 
 # END OF PATCH DEFINITIONS
 
@@ -2155,6 +2157,9 @@ fi
 #
 # 
 %changelog
+* Tue Jul 19 2016 Bastien Nocera <bnocera@redhat.com> - 4.7.0-0.rc6.git1.2.surface3
+- Add Surface 3 patches
+
 * Thu Jul 07 2016 Laura Abbott <labbott@redhat.com> - 4.7.0-0.rc6.git1.1
 - Linux v4.7-rc6-74-g076501f
 - Reenable debugging options.
