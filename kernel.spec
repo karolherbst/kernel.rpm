@@ -649,6 +649,8 @@ Patch911: 0006-Input-surface3_button_array-Introduce-button-support.patch
 Patch912: 0001-power-MSHW0011-rev-eng-implementation.patch
 Patch913: 0002-power-surface3_power-Improve-battery-capacity-report.patch
 
+Patch914: 0001-gpiolib-acpi-make-sure-we-trigger-the-events-at-leas.patch
+
 # END OF PATCH DEFINITIONS
 
 %endif
