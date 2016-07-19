@@ -42,7 +42,7 @@ Summary: The Linux kernel
 # For non-released -rc kernels, this will be appended after the rcX and
 # gitX tags, so a 3 here would become part of release "0.rcX.gitX.3"
 #
-%global baserelease 2.surface3
+%global baserelease 4.surface3
 %global fedora_build %{baserelease}
 
 # base_sublevel is the kernel version we're starting with and patching
@@ -2193,6 +2193,12 @@ fi
 #
 # 
 %changelog
+* Wed Jul 20 2016 Bastien Nocera <bnocera@redhat.com> - 4.7.0-0.rc6.git1.4.surface3
+- Disable debugging options.
+
+* Tue Jul 19 2016 Bastien Nocera <bnocera@redhat.com> - 4.7.0-0.rc6.git1.3.surface3
+- Disable debugging options.
+
 * Tue Jul 19 2016 Bastien Nocera <bnocera@redhat.com> - 4.7.0-0.rc6.git1.2.surface3
 - Add Surface 3 patches
 
