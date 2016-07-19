@@ -631,6 +631,9 @@ Patch833: drm-nouveau-disp-sor-gf119-select-correct-sor-when.patch
 Patch834: qla2xxx-Fix-NULL-pointer-deref-in-QLA-interrupt.patch
 
 # Surface 3 patches
+Patch900: 0001-Input-add-new-driver-for-the-Surface-3.patch
+Patch901: 0001-Input-surface3_spi-Prepare-to-add-support-for-Surfac.patch
+Patch902: 0001-Input-surface3_spi-add-surface-pen-support-for-Surfa.patch
 
 # END OF PATCH DEFINITIONS
 
