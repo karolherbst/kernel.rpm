@@ -639,6 +639,13 @@ Patch903: 0001-HID-input-rework-HID_QUIRK_MULTI_INPUT.patch
 Patch904: 0002-HID-multitouch-enable-the-Surface-3-Type-Cover-to-re.patch
 Patch905: 0003-HID-multitouch-set-correct-class-for-Surface-Type-Co.patch
 
+Patch906: 0001-Input-soc_button_array-use-gpio_is_valid.patch
+Patch907: 0002-Input-soc_button_array-bail-out-earlier-if-gpiod_cou.patch
+Patch908: 0003-Input-soc_button_array-make-sure-one-GPIO-is-not-ass.patch
+Patch909: 0004-Input-soc_button_array-allow-to-specify-active_low.patch
+Patch910: 0005-Input-soc_button_array-export-part-of-the-internals.patch
+Patch911: 0006-Input-surface3_button_array-Introduce-button-support.patch
+
 # END OF PATCH DEFINITIONS
 
 %endif
