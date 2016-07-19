@@ -1,0 +1,41 @@
+From a3df5bf1d383e45c54875355556bc8b3bb2889c5 Mon Sep 17 00:00:00 2001
+From: Benjamin Tissoires <benjamin.tissoires@redhat.com>
+Date: Tue, 31 May 2016 10:34:45 +0200
+Subject: [PATCH 1/2] WIP: acpi/button: remove pointer to old lid_sysfs on
+ unbind
+
+Signed-off-by: Benjamin Tissoires <benjamin.tissoires@redhat.com>
+---
+ drivers/acpi/button.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/drivers/acpi/button.c b/drivers/acpi/button.c
+index 5c3b091..e413599 100644
+--- a/drivers/acpi/button.c
++++ b/drivers/acpi/button.c
+@@ -188,9 +188,11 @@ done:
+ remove_dev_dir:
+ 	remove_proc_entry(acpi_device_bid(device),
+ 			  acpi_lid_dir);
++	acpi_lid_dir = NULL;
+ 	acpi_device_dir(device) = NULL;
+ remove_lid_dir:
+ 	remove_proc_entry(ACPI_BUTTON_SUBCLASS_LID, acpi_button_dir);
++	acpi_button_dir = NULL;
+ remove_button_dir:
+ 	remove_proc_entry(ACPI_BUTTON_CLASS, acpi_root_dir);
+ 	goto done;
+@@ -207,8 +209,10 @@ static int acpi_button_remove_fs(struct acpi_device *device)
+ 			  acpi_device_dir(device));
+ 	remove_proc_entry(acpi_device_bid(device),
+ 			  acpi_lid_dir);
++	acpi_lid_dir = NULL;
+ 	acpi_device_dir(device) = NULL;
+ 	remove_proc_entry(ACPI_BUTTON_SUBCLASS_LID, acpi_button_dir);
++	acpi_button_dir = NULL;
+ 	remove_proc_entry(ACPI_BUTTON_CLASS, acpi_root_dir);
+ 
+ 	return 0;
+-- 
+2.7.4
+

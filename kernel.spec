@@ -651,6 +651,10 @@ Patch913: 0002-power-surface3_power-Improve-battery-capacity-report.patch
 
 Patch914: 0001-gpiolib-acpi-make-sure-we-trigger-the-events-at-leas.patch
 
+Patch915: 0001-WIP-acpi-button-remove-pointer-to-old-lid_sysfs-on-u.patch
+Patch916: 0001-WIP-i2c-hid-enabled-S0-S3.patch
+Patch917: 0002-WIP-add-custom-surface3-platform-device-for-controll.patch
+
 # END OF PATCH DEFINITIONS
 
 %endif
