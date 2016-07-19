@@ -659,6 +659,15 @@ Patch918: ASoC_Intel_Add_support_for_surface3_tablet.patch
 Patch919: 07d5c17b80f67d1b2cc2c8243590e2abed4bd7ae..5d554ea4f287665b839975ecb11bd29d49a5c9b5.patch
 Patch920: 5d554ea4f287665b839975ecb11bd29d49a5c9b5..24dad509ed5528bbbe31ff17f9fb39c0473ec8f4.patch
 
+Patch921: 6b3c33e985f20e7de07fc4b9b1a96dc452e37cb4..141bcf099076df1a74317a5b14dcd56c933b9de8.patch
+Patch922: ee6e7aa383944ce62860f35c86f1ac7da7dd27b6..5c87a55adbd5eb3536893c40086253e15ea53cd5.patch
+Patch923: c18b104dd2495da60ec92f40e14559591644cc3a..473dfbfa09934cea0d08cc9023c749a5fce10cb0.patch
+Patch924: 473dfbfa09934cea0d08cc9023c749a5fce10cb0..d41376ca8ba74e954ba931c69271d0b29546a202.patch
+Patch925: d41376ca8ba74e954ba931c69271d0b29546a202..5781fc29dbbd3ee5e11c1bf4fa6696ae89d19840.patch
+Patch926: fd3ed33f51c2a586412d35b4f64803f019ab589f..2af86f9d954ee86e9b1c492e025de37a1b6d2db8.patch
+Patch927: 1-2-mwifiex-fix-PCIe-legacy-interrupt-problem.patch
+Patch928: 2-2-mwifiex-update-command-response-skb-length-correctly.patch
+
 # END OF PATCH DEFINITIONS
 
 %endif
