@@ -1,0 +1,32 @@
+From d4b0c0bfd2194496d7a72722829d4283ed5f3141 Mon Sep 17 00:00:00 2001
+From: Benjamin Tissoires <benjamin.tissoires@redhat.com>
+Date: Fri, 3 Jun 2016 11:49:17 +0200
+Subject: [PATCH 3/3] HID: multitouch: set correct class for Surface Type Cover
+ 3
+
+Looks like Microsoft forgot to set the blob discriminating between Win 8
+and Win 7 devices...
+
+Signed-off-by: Benjamin Tissoires <benjamin.tissoires@redhat.com>
+---
+ drivers/hid/hid-multitouch.c | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/drivers/hid/hid-multitouch.c b/drivers/hid/hid-multitouch.c
+index dd279d7..fa6622a 100644
+--- a/drivers/hid/hid-multitouch.c
++++ b/drivers/hid/hid-multitouch.c
+@@ -1379,6 +1379,10 @@ static const struct hid_device_id mt_devices[] = {
+ 		MT_USB_DEVICE(USB_VENDOR_ID_ILITEK,
+ 			USB_DEVICE_ID_ILITEK_MULTITOUCH) },
+ 
++	/* Microsoft */
++	{ .driver_data = MT_CLS_WIN_8,
++		MT_USB_DEVICE(USB_VENDOR_ID_MICROSOFT, 0x07cd) },
++
+ 	/* MosArt panels */
+ 	{ .driver_data = MT_CLS_CONFIDENCE_MINUS_ONE,
+ 		MT_USB_DEVICE(USB_VENDOR_ID_ASUS,
+-- 
+2.7.4
+

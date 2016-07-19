@@ -635,6 +635,10 @@ Patch900: 0001-Input-add-new-driver-for-the-Surface-3.patch
 Patch901: 0001-Input-surface3_spi-Prepare-to-add-support-for-Surfac.patch
 Patch902: 0001-Input-surface3_spi-add-surface-pen-support-for-Surfa.patch
 
+Patch903: 0001-HID-input-rework-HID_QUIRK_MULTI_INPUT.patch
+Patch904: 0002-HID-multitouch-enable-the-Surface-3-Type-Cover-to-re.patch
+Patch905: 0003-HID-multitouch-set-correct-class-for-Surface-Type-Co.patch
+
 # END OF PATCH DEFINITIONS
 
 %endif
