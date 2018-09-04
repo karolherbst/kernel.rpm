@@ -664,6 +664,9 @@ Patch523: 0001-xfs-More-robust-inode-extent-count-validation.patch
 # CVE-2018-15471 rhbz 1610555 1618414
 Patch524: xsa270.patch
 
+# my patches
+Patch999: runpm_nouveau_fix.patch
+
 # END OF PATCH DEFINITIONS
 
 %endif
